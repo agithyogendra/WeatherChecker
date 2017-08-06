@@ -111,8 +111,6 @@ $(document).ready(function(){
 	    var date = month + " " + date + ", " + year;
 
 		$('#time').text(time);
-
-
 		$('#date').text(date);
 
 		setTimeout(updateClock, 1000);
