@@ -15,7 +15,7 @@ $(document).ready(function(){
 
 	function getLocation(position){
 
-		$.get("http://ipinfo.io", function (response) {
+		$.get("https://ipinfo.io", function (response) {
     	$("#city").html( response.city + ", " + response.region);
 		}, "jsonp");
 
