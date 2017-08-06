@@ -58,6 +58,7 @@ $(document).ready(function(){
 				}
 			}
 		});
+		setTimeout(getLocation, 1000);
 	}
 
 	function errorHandler(err) {
