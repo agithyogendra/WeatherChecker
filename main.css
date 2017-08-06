@@ -1,0 +1,40 @@
+.card{
+	background-color: #4B515D;
+	position: relative;
+	float: center;
+	font-family: 'Arvo', serif;
+	top: 50px;
+	border-radius: 20px;
+	padding: 20px 20px 20px 20px;
+	color: #fafafa;
+	width:25%;
+
+}
+
+body{
+	background-color: #ffea00;
+}
+
+#head{
+	background-color: #4dd0e1;
+	border-radius: 10px;
+	padding: 10px 10px 10px 10px;
+}
+
+.b{
+	display: inline-block;
+}
+
+#temp{
+	display: inline-block;
+	padding: 10px 10px 10px 10px;
+}
+
+#bottom{
+	color: #ffea00;
+}
+
+#foot{
+	top:-20px;
+}
+
