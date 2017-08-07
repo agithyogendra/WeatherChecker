@@ -97,6 +97,9 @@ $(document).ready(function(){
 					case "Thunderstorm":
 						$("#icon-1").children().addClass(icons[5]);
 						break;
+					case "Haze":
+						$("#icon").children().addClass(icons[7]);
+						break;
 					default:
 						$("#icon-1").children().addClass(icons[5]);
 						break;
@@ -127,6 +130,9 @@ $(document).ready(function(){
 					case "Thunderstorm":
 						$("#icon-2").children().addClass(icons[5]);
 						break;
+					case "Haze":
+						$("#icon").children().addClass(icons[7]);
+						break;
 					default:
 						$("#icon-2").children().addClass(icons[5]);
 						break;
@@ -156,6 +162,9 @@ $(document).ready(function(){
 						break;
 					case "Thunderstorm":
 						$("#icon-3").children().addClass(icons[5]);
+						break;
+					case "Haze":
+						$("#icon").children().addClass(icons[7]);
 						break;
 					default:
 						$("#icon-3").children().addClass(icons[5]);
