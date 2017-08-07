@@ -20,7 +20,7 @@ $(document).ready(function(){
 
 	function getLocation(position){
 
-		$.get("http://ipinfo.io", function (response) {
+		$.get("https://crossorigin.me/http://ipinfo.io", function (response) {
     	$("#city").html(response.city + ", " + response.region);
     	}, "jsonp");
 
