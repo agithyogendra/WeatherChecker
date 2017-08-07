@@ -62,7 +62,7 @@ $(document).ready(function(){
 						$("#icon").children().addClass(icons[7]);
 						break;
 					default:
-						$("#icon").children().addClass(icons[5]);
+						$("#icon").html("No icon found");
 						break;
 				}
 			}
@@ -101,7 +101,7 @@ $(document).ready(function(){
 						$("#icon").children().addClass(icons[7]);
 						break;
 					default:
-						$("#icon-1").children().addClass(icons[5]);
+						$("#icon-1").html("No icon found");
 						break;
 				}
 				celsius2 = Math.round(response.list[1].main.temp - 273.15);
@@ -134,7 +134,7 @@ $(document).ready(function(){
 						$("#icon").children().addClass(icons[7]);
 						break;
 					default:
-						$("#icon-2").children().addClass(icons[5]);
+						$("#icon-2").html("No icon found");
 						break;
 				}
 				celsius3 = Math.round(response.list[2].main.temp - 273.15);
@@ -167,7 +167,7 @@ $(document).ready(function(){
 						$("#icon").children().addClass(icons[7]);
 						break;
 					default:
-						$("#icon-3").children().addClass(icons[5]);
+						$("#icon-3").html("No icon found");
 						break;
 				}
 			}
