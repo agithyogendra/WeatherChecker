@@ -174,7 +174,7 @@ $(document).ready(function(){
 		});
 
 
-		setTimeout(getLocation, 1000);
+		setInterval(getLocation, 3600000);
 	}
 
 	function errorHandler(err) {
