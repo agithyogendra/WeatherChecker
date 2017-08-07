@@ -187,13 +187,13 @@ $(document).ready(function(){
 		if(hour > 24){
 			hour = hour - 24;
 			AM_PM = "AM";
-			} else if (hour == 24) {
+			} else if (hour === 24 || hour === 0) {
 	            hour = 12;
 	            AM_PM = "AM";
 	        } else if((hour < 24) && hour > 12){
  				AM_PM = "PM";
 	        	hour = hour - 12;
-	        }else if(hour == 12){
+	        }else if(hour === 12){
 				AM_PM = "PM";
 	        }else if(hour < 12){
 				AM_PM = "AM";
