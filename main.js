@@ -20,7 +20,7 @@ $(document).ready(function(){
 
 	function getLocation(position){
 
-		$.get("https://cors-anywhere.herokuapp.com/http://ipinfo.io", function (response) {
+		$.get("http://ipinfo.io", function (response) {
     	$("#city").html(response.city + ", " + response.region);
     	}, "jsonp");
 
