@@ -2,7 +2,7 @@ var lat;
 var lon;
 var api1 = 'https://api.openweathermap.org/data/2.5/weather?';
 var api2 = 'https://api.openweathermap.org/data/2.5/forecast?';
-var icons = ["wi-cloudy", "wi-snow" , "wi-sprinkle", "wi-rain", "wi-day-sunny", "wi-thunderstorm", "wi-fog"];
+var icons = ["wi-cloudy", "wi-snow" , "wi-sprinkle", "wi-rain", "wi-day-sunny", "wi-thunderstorm", "wi-fog", "wi-day-haze"];
 var celsius;
 var celsius1;
 var celsius2;
@@ -57,6 +57,9 @@ $(document).ready(function(){
 						break;
 					case "Thunderstorm":
 						$("#icon").children().addClass(icons[5]);
+						break;
+					case "Haze":
+						$("#icon").children().addClass(icons[7]);
 						break;
 					default:
 						$("#icon").children().addClass(icons[5]);
