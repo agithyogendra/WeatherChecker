@@ -1,5 +1,8 @@
 # WeatherChecker
-This program implements the bootstrap framework, OpenWeatherMap API, and FontAwesome icons, weather icons from erik flowers and the ipinfo API.
+Displays the weather of the user's position, both at the time they use it and at 3 different 3 hour intervals.
+
+### How to use
+Allow geolocation
 
 ### Dependencies
 * Bootstrap framework
