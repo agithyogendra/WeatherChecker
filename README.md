@@ -10,4 +10,5 @@ Allow geolocation
 * FontAwesome icons
 * Weather icons from erik flowers
 * ipinfo API
+* Google Fonts
 
